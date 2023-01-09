@@ -1,0 +1,40 @@
+.supportContainer{
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   font-size: 16px;
+   letter-spacing: 1.5px;
+   .contentContainer{
+      width: 320px;
+      .titleSupport{
+         font-size: 25px;
+         text-align: center;
+      }
+      .inputContainert{
+         margin-top: 24px;
+         input, textarea{
+            margin-top: 5px;
+            width: 100%;
+            height: 35px;
+            color: #000;
+            font-size: 20px;
+            padding: 0 10px;font-weight: bold;
+         }
+         textarea{
+            height: 400px;
+            width: 100%;
+            padding: 10px 10px;
+            resize: none
+         }
+      }
+      button{
+         width: 100%;
+         height: 35px;
+         background: #f2702c;
+         cursor: pointer;
+         border-radius: 8px;
+      }
+   }
+   
+}

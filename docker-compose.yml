@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+
+  nginx:
+    container_name: passport-app-nginx
+    working_dir: /var/www
+    ports:
+      - ${VIRTUAL_PORT}:8080
+    build:
+      context: docker/nginx
+      args: 
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./docker/log:/var/log/nginx
+      - .:/var/www
+    networks:
+      - proxy-nginx
+    env_file:
+      - .env
+
+networks:
+  proxy-nginx:
+    external: true
+    driver: bridge

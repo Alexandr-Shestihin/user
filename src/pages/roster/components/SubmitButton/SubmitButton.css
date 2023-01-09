@@ -1,0 +1,28 @@
+.submit-button-wrapper {
+  width: 100%;
+}
+.submit-button {
+  display: block;
+  padding: 16px 40px;
+  width: 342px;
+  background: #f6a020;
+  border-radius: 18px;
+  margin: 40px auto;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #1e1e1e;
+  cursor: pointer;
+}
+.submit-button:disabled {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 450px) {
+  .submit-button {
+    width: 270px;
+  }
+}

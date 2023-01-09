@@ -1,0 +1,4 @@
+version: '3.7'
+services:
+  nginx:
+    container_name: passport-app-nginx

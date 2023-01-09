@@ -1,0 +1,45 @@
+.containerInviteTeam{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   .contantContainer{
+      width: 580px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .inputContainer{
+         color: #000;
+         width: 270px;
+         height: 40px;
+         display: flex;
+         justify-content: space-between;
+         input{
+            width: 210px;
+            color: inherit;
+            padding: 0 5px;
+         }
+         button{
+            color: inherit;
+            width: 65px;
+         }
+      }
+      .teamMembersContainer{
+         margin-top: 50px;
+         width: 100%;
+         .titleMembers{
+
+         }
+         .playerContainers{
+            display: flex;
+            flex-wrap: wrap;
+       }
+      }
+   }
+}
+.messageContainer{
+   margin-top: 10px;
+}
+.err{
+   border: 2px solid red;
+   color: red;
+}

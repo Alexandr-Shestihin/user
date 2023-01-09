@@ -1,0 +1,33 @@
+.invitContainer{
+   display: flex;
+   flex-direction: column;
+}
+.teamInfoContainer{
+   display: flex;
+   align-items: center;
+}
+.imgContainer{
+   border-radius: 50%;
+   overflow: hidden;
+   margin-left: 10px;
+   width: 40px;
+   height: 40px;
+   img{
+      width: 100%;
+      height: 100%;
+   }
+}
+.agreeBtn{
+   background: lime;
+   color: #000;
+}
+.refuseBtn{
+   background: red;
+}
+.invitBtn{
+   margin-left: 10px;
+   width: 100px;
+   height: 30px;
+   border-radius: 12px;
+   cursor: pointer;
+}

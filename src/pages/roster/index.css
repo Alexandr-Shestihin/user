@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik";
+  font-weight: 400;
+  scrollbar-width: thin;
+  scrollbar-color: #f6a020 #795014;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  color: #ffffff;
+  background: #1e1e1e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+

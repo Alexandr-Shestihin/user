@@ -1,0 +1,225 @@
+@media screen and (min-width: 320px) {
+    .profile_header {
+        height: 175px;
+        background-size: cover;
+        padding: 0 20px;
+        background: no-repeat 0 center;
+        position: relative;
+    }
+
+    .edit {
+        cursor: pointer;
+    }
+
+    .profile_header__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .profile__img {
+        height: 94px;
+        width: 94px;
+    }
+
+    .line {
+        background: #c4c4c4;
+        height: 1px;
+        width: 70px;
+        margin: 13px 0;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 17px;
+    }
+
+    .profile__info {
+        width: fit-content;
+    }
+
+    .profile_info__item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .profile_info__item p {
+        /*color: #9a9ca6;*/
+        color: #b4b4b6;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        margin-left: 7px;
+        margin-top: 3px;
+    }
+
+    .profile__info p:nth-child(1) {
+        margin-left: 17px;
+    }
+
+    .profile__info p:nth-child(2) {
+        margin-bottom: 5px;
+    }
+
+    .profile_info__item img {
+        height: 13px;
+        width: 13px
+    }
+
+    .profile__info h2 {
+        color: #f2702c;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        margin-left: 7px;
+    }
+
+    .profile__icons {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile__icons img {
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .profile__icons img:first-child {
+        height: 25px;
+        width: 25px
+    }
+
+    .line_header {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        max-width: 1920px;
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .profile_header {
+        height: 175px;
+        background-size: cover;
+        padding: 0 20px;
+        background: no-repeat 0 center;
+        position: relative;
+    }
+
+    .profile_header__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .profile__img {
+        height: 104px;
+        width: 104px;
+    }
+
+    .line {
+        background: #c4c4c4;
+        height: 1px;
+        width: 70px;
+        margin: 13px 0;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 17px;
+    }
+
+    .profile__info {
+        width: fit-content;
+    }
+
+    .profile_info__item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .profile_info__item p {
+        /*color: #9a9ca6;*/
+        color: #b4b4b6;
+        font-size: 13px;
+        margin: 0;
+        padding: 0;
+        margin-left: 7px;
+        margin-top: 3px;
+    }
+
+    .profile__info p:nth-child(1) {
+        margin-left: 17px;
+    }
+
+    .profile__info p:nth-child(2) {
+        margin-bottom: 5px;
+    }
+
+    .profile_info__item img {
+        height: 13px;
+        width: 13px
+    }
+
+    .profile__info h2 {
+        color: #f2702c;
+        font-size: 21px;
+        margin: 0;
+        padding: 0;
+        margin-left: 7px;
+    }
+
+    .profile__icons {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile__icons img {
+        height: 35px;
+    }
+
+    .profile__icons img:first-child {
+        height: 30px;
+        width: 30px
+    }
+
+    .line_header {
+        bottom: -5px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .profile_header__content {
+        max-width: 500px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .profile_header__content {
+        max-width: 1000px;
+    }
+
+    .profile__img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .profile__info h2 {
+        font-size: 25px;
+    }
+
+    .profile_info__item p {
+        font-size: 16px;
+    }
+}

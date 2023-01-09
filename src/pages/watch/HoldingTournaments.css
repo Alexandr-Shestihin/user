@@ -1,0 +1,355 @@
+ul,
+li,
+a,
+p,
+div,
+h3,
+h4,
+img {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-bg-color: #000000;
+  --main-text-color: rgb(154, 156, 166);
+  --main-title-text: #f2702c;
+  --main-text--active: #9a9ca6;
+  --main-non-active: #6c6d74;
+  --main-team-card: #181818;
+}
+
+.holding-tournaments__wrapper {
+  padding-bottom: 25px;
+  background: #262626;
+  /* TODO color */
+  font-family: "Nexa";
+}
+
+.holding-tournaments__calendar {
+  position: relative;
+  background: #262626;
+  /* TODO color */
+
+  font-family: "Nexa";
+  border-bottom: 1px var(--main-text--active) solid;
+}
+.holding-tournaments__calendar-title {
+  padding: 14px 50px;
+}
+.holding-tournaments__calendar-image {
+  position: absolute;
+  top: 14px;
+  right: 50px;
+}
+.holding-tournaments__calendar-week {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 18%;
+  box-sizing: border-box;
+}
+.holding-tournaments__calendar-day-of-week {
+  height: 38px;
+  width: 49px;
+  margin: 0 5px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+.holding-tournaments__calendar-day-of-week--active {
+  background: #3c3c3c;
+}
+.calendar-day-of-week__day-name,
+.calendar-day-of-week__day-number {
+  text-align: center;
+  font-size: 15px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.calendar-day-of-week__day-name {
+  margin-top: 2px;
+}
+.holding-tournaments__hide-results {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 18%;
+  background: #414042;
+  /* TODO color + border  */
+  /* border-bottom: 1px solid rgb(120, 100, 164); */
+  /* background: rgb(43, 36, 74, 0.5); */
+}
+.holding-tournaments__hide-results-input {
+  display: none;
+}
+.hide-results__description {
+  font-family: "Nexa";
+  font-size: 15px;
+  color: white;
+}
+.holding-tournaments__filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 18%;
+  background: #262626;
+  /* TODO color */
+}
+.holding-tournaments__filter {
+  display: none;
+}
+.holding-tournaments__filter-label {
+  width: 72px;
+  height: 26px;
+  padding: 3px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 2px #ffffff solid;
+  box-sizing: border-box;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #6d6e71;
+  background: transparent;
+  font-family: "Nexa";
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+.holding-tournaments__filter:checked + .holding-tournaments__filter-label {
+  background: #bcbec0;
+  color: #000000;
+}
+.holding-tournaments__search-results {
+  box-shadow: 0 12px 13px 0px #00000075;
+  margin: 25px 18% 5px 18%;
+  background: #333333;
+  /* TODO color  */
+  /* background: rgb(43, 36, 74); */
+  border-radius: 10px;
+}
+.holding-tournaments__search-result {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 110px;
+  padding: 15px 10%;
+  box-sizing: border-box;
+  border-bottom: 1px #6d6e71 solid;
+}
+.search-result__star {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.search-result__status {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 42px;
+  height: 18px;
+  background: #b5b5b5;
+  color: #000000;
+  margin-right: -19px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 2px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.search-result__game {
+  position: absolute;
+  top: 0;
+  width: 140px;
+  height: 18px;
+  margin-right: -19px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 2px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.search-result__status--live {
+  background: #ef5236;
+  color: white;
+}
+.search-result__team-1,
+.search-result__team-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  vertical-align: center;
+  height: 100px;
+  width: 100px;
+}
+.search-result__team-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 77;
+}
+.search-result__team-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.search-result__team-name {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+.holding-tournaments__search-result .search-result__score {
+  font-size: 40px;
+  line-height: 46px;
+  color: #ffffff;
+  font-family: "Nexa XBold";
+}
+.search-result__score-time {
+  font-size: 26px;
+  line-height: 28px;
+  text-align: center;
+}
+.search-result__score-day {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.search-result__score-score {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.search-results__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-results__watch-link,
+.search-results__statistics-link {
+  display: block;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-weight: 700;
+}
+.search-results__watch-link {
+  border-right: 1px #6d6e71 solid;
+}
+
+@media (max-width: 1400px) {
+  .holding-tournaments__end-message {
+    margin-top: -18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .holding-tournaments__end-message {
+    margin-top: -13px;
+  }
+}
+
+@media (max-width: 850px) {
+  .search-result__star {
+    top: 5px;
+    right: 5px;
+  }
+  .holding-tournaments__calendar-week {
+    padding: 0 5%;
+  }
+  .holding-tournaments__hide-results {
+    padding: 18px 5%;
+  }
+  .holding-tournaments__filters {
+    padding: 20px 5%;
+  }
+  .holding-tournaments__search-results {
+    margin: 25px 5% 0px 5%;
+  }
+  .holding-tournaments__search-result {
+    padding: 15px 6%;
+  }
+  .holding-tournaments__search-result .search-result__score {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .search-result__score-time {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .search-result__score-day {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 670px) {
+  .holding-tournaments__end-message {
+    margin-top: -9px;
+  }
+}
+
+@media (max-width: 500px) {
+  .holding-tournaments__calendar-day-of-week {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 36px;
+    width: 38px;
+  }
+  .calendar-day-of-week__day-name,
+  .calendar-day-of-week__day-number {
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .calendar-day-of-week__day-name {
+    padding-top: 4px;
+    padding-bottom: 2px;
+  }
+  .holding-tournaments__filter-label {
+    width: 53px;
+    height: 26px;
+    padding: 2px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 2px #ffffff solid;
+    box-sizing: border-box;
+    border-radius: 14px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #6d6e71;
+    background: transparent;
+    font-family: "Nexa";
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+  }
+  .holding-tournaments__search-results {
+    margin: 25px 5% 2px 5%;
+  }
+  .holding-tournaments__end-message {
+    margin-top: -7px;
+  }
+}

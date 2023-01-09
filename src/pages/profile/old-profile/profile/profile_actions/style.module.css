@@ -1,0 +1,123 @@
+@media screen and (min-width: 320px) {
+    .profile_action {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .profile_action__item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile_action__info {
+        display: flex;
+        height: 0;
+        margin-bottom: 10px;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        top: 20px;
+    }
+
+    .profile_action__info h6 {
+        font-size: 9px;
+    }
+
+    .line_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    /*.line_wrapper:before {*/
+    /*    content: url('../../../../assets/images/arrow.svg');*/
+    /*    height: 10px;*/
+    /*    width: 10px;*/
+    /*    position: absolute;*/
+    /*    right: -15px;*/
+    /*    top: -12px;*/
+    /*}*/
+
+    .line_wrapper img {
+
+    }
+
+    .arrow {
+        margin-right: 20px;
+
+    }
+
+    .profile_action__info {
+        padding: 0;
+        margin: 0;
+        color: #f2702c;
+        margin-bottom: 30px;
+    }
+
+    .circlec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .line {
+        height: 2px;
+        background: rgba(117, 120, 129, 1);
+        width: 3.3px;
+        margin-right: 3.3px;
+    }
+
+}
+
+@media screen and (min-width: 425px) {
+
+    .profile_action__info h6 {
+        font-size: 13px;
+    }
+
+    .line {
+        height: 3px;
+        background: rgba(117, 120, 129, 1);
+        width: 4.3px;
+        margin-right: 4.3px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .profile_action {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .profile_action__info h6 {
+        font-size: 18px;
+    }
+
+    .line {
+        height: 5px;
+        width: 7.3px;
+        margin-right: 4.3px;
+    }
+
+    /*.line_wrapper:before {*/
+    /*    content: url('../../../../assets/images/arrow.svg');*/
+    /*    height: 25px;*/
+    /*    width: 25px;*/
+    /*    position: absolute;*/
+    /*    right: -30px;*/
+    /*    top: -10px;*/
+    /*    cursor: pointer;*/
+    /*}*/
+}
+
+@media screen and (min-width: 1440px) {
+    .profile_action {
+        max-width: 1000px;
+        margin-top: 30px;
+    }
+
+}

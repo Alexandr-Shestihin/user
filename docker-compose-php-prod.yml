@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  nginx:
+    image: "852699307127.dkr.ecr.eu-central-1.amazonaws.com/app-mobile:latest"
+    ulimits:
+      nofile:
+        soft: 300000
+        hard: 400000
+        #cpu_shares: 3000
+        #mem_reservation: 3072000000
+    ports:
+      - 8080:8080
+

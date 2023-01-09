@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "tag": "Flow",
+    "pts": 200,
+    "win": 12,
+    "lose": 11,
+    "infosLink": "$1000"
+  },
+  {
+    "id": 2,
+    "tag": "Why",
+    "pts": 140,
+    "win": 14,
+    "lose": 8,
+    "infosLink": "$400"
+  },
+  {
+    "id": 3,
+    "tag": "Mitrust-Storm",
+    "pts": 1000,
+    "win": 14,
+    "lose": 6,
+    "infosLink": "$2000"
+  },
+  {
+    "id": 4,
+    "tag": "duelist17",
+    "pts": 1000,
+    "win": 15,
+    "lose": 8,
+    "infosLink": "$1600"
+  },
+  {
+    "id": 5,
+    "tag": "Mr_Expandable",
+    "pts": 25,
+    "win": 11,
+    "lose": 15,
+    "infosLink": "-"
+  },
+  {
+    "id": 6,
+    "tag": "The Emperor",
+    "pts": 22,
+    "win": 2,
+    "lose": 7,
+    "infosLink": "-"
+  },
+  {
+    "id": 7,
+    "tag": "Kuroten",
+    "pts": 23,
+    "win": 4,
+    "lose": 7,
+    "infosLink": "-"
+  },
+  {
+    "id": 8,
+    "tag": "Oracle_99",
+    "pts": 24,
+    "win": 9,
+    "lose": 11,
+    "infosLink": "-"
+  },
+  {
+    "id": 9,
+    "tag": "The Alpha and the Omega",
+    "pts": 20,
+    "win": 2,
+    "lose": 2,
+    "infosLink": "-"
+  },
+  {
+    "id": 10,
+    "tag": "RealMG",
+    "pts": 10,
+    "win": 1,
+    "lose": 2,
+    "infosLink": "-"
+  },
+  {
+    "id": 11,
+    "tag": "Riyukan",
+    "pts": 9,
+    "win": 1,
+    "lose": 2,
+    "infosLink": "-"
+  },
+  {
+    "id": 12,
+    "tag": "Rogue_Identity",
+    "pts": 21,
+    "win": 2,
+    "lose": 1,
+    "infosLink": "-"
+  },
+  {
+    "id": 13,
+    "tag": "Falcon",
+    "pts": 10,
+    "win": 1,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 14,
+    "tag": "Leather Warlord",
+    "pts": 4,
+    "win": 0,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 15,
+    "tag": "JEvs",
+    "pts": 3,
+    "win": 0,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 16,
+    "tag": "Kicking Machine",
+    "pts": 2,
+    "win": 0,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 17,
+    "tag": "EpicFail8221",
+    "pts": 1,
+    "win": 0,
+    "lose": 4,
+    "infosLink": "-"
+  }
+]

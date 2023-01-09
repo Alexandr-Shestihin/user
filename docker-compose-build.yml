@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+
+  nginx:
+    container_name: passport-app-nginx
+    working_dir: /var/www
+    ports:
+      - ${VIRTUAL_PORT}:8080
+    build:
+      context: docker/nginx
+      dockerfile: Dockerfile.ci
+      args:
+        USER_ID: ${USER_ID}
+        GROUP_ID: ${GROUP_ID}
+
+#    volumes:
+            #      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+            #      - ./docker/log:/var/log/nginx
+            #      - .:/var/www
+    networks:
+      - proxy-nginx
+#    env_file:
+#      - .env.pwiszedma.aws
+#    image: 852699307127.dkr.ecr.eu-central-1.amazonaws.com/m-passport-gg:latest
+
+

@@ -1,0 +1,247 @@
+ul,
+li,
+a,
+p,
+div,
+h3,
+h4,
+img {
+  padding: 0;
+  margin: 0;
+}
+.calendar {
+  border-top: 1px #9a9ca6 solid;
+}
+.calendar__title {
+  padding: 0 5px 5px 5px;
+  font-size: 28px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-bottom: 2px transparent solid;
+  font-family: "Nexa";
+  text-align: center;
+}
+.calendar__title--active {
+  border-bottom-color: #f7a01d;
+}
+.calendar__title--clickable {
+  cursor: pointer;
+}
+.calendar__filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 18%;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  background: #262626;
+  border-bottom: 1px #9a9ca6 solid;
+}
+.calendar__filter-icon {
+  width: 29px;
+  height: 29px;
+}
+.calendar__event-lists {
+  /* height: var(--full-height-without-menu); */
+  padding: 20px 0;
+  /* background: #212121; */
+  box-sizing: border-box;
+}
+.calendar__event-list {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.event-list__date {
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-bottom: 8px;
+  margin-left: 18%;
+  margin-bottom: 20px;
+  border-bottom: 1px #9a9ca6 solid;
+  font-family: "Nexa";
+}
+.event-list__events {
+  list-style: none;
+  width: 100%;
+  padding: 0 18%;
+  box-sizing: border-box;
+}
+.event-list__events .event-list__event {
+  /*width: 64%; */
+  position: relative;
+  width: 420px;
+  height: 85px;
+  border: 1px white solid;
+  border-radius: 13px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  background: url(../../assets/images/GreenBG.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  gap: 17px;
+}
+
+.event-list__star-image {
+  position: absolute;
+  background: url("../../assets/svg/Star.svg");
+  top: 7px;
+  right: 7px;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+.event-list__star-image--active {
+  background: url("../../assets/svg/StarGold.svg");
+}
+.event__prize-and-date {
+  width: 240px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.event__prize-and-date .event__prize,
+.event__prize-and-date .event__date {
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  text-align: center;
+  font-family: "Nexa XBold";
+}
+.event-list__event .event__link {
+  display: block;
+  margin-top: 3px;
+  margin-right: 10px;
+  text-align: right;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 16px;
+  text-decoration: underline;
+  font-family: "Nexa XBold";
+}
+.tournament-list__event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px;
+  box-sizing: border-box;
+}
+.event__game-image {
+  width: 58px;
+  height: 58px;
+  margin-right: 27px;
+  border-radius: 13px;
+  /* background: url("../../assets/images/pubg-logo.jpg") no-repeat; */
+  background-size: contain;
+}
+.event__name-stage-date {
+  flex-grow: 77;
+  color: white;
+}
+.event__name {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "Nexa XBold";
+}
+.event__decoration {
+  width: 166px;
+  height: 1px;
+  margin: 4px auto;
+  margin-bottom: 8px;
+  background: #9a9ca6;
+}
+.event__stage {
+  margin-bottom: 3px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Nexa XBold";
+}
+.event__date {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Nexa XBold";
+}
+.event__tournament-link {
+  margin-bottom: -3px;
+  margin-right: -1px;
+  align-self: flex-end;
+  color: white;
+  font-size: 10px;
+  line-height: 12px;
+  font-family: "Nexa XBold";
+  text-decoration: underline;
+}
+@media (max-width: 850px) {
+  .calendar__filter {
+    padding: 15px 5%;
+  }
+  .event-list__date {
+    margin-left: 5%;
+  }
+  .event-list__events {
+    padding: 0 5%;
+  }
+  .event-list__event .event__link {
+    margin-top: 3px;
+    margin-right: 10px;
+  }
+  .notification__search {
+    padding: 19px 5%;
+  }
+}
+@media (max-width: 500px) {
+  .calendar__title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .calendar__title--clickable {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .event-list__events .event-list__event {
+    width: 280px;
+    height: 100%;
+    padding: 0 5%;
+  }
+  .event-list__event .event__link {
+    margin-right: -3px;
+    margin-top: 6px;
+  }
+  .event__prize-and-date {
+    width: 270px;
+    margin-top: 20px;
+    margin-left: -25px;
+  }
+  .event__game-image {
+    /*position: absolute;*/
+    width: 40px;
+    height: 40px;
+    /*top: 25px;
+    left: 10px;*/
+  }
+  .tournament-list__events .tournament-list__event {
+    padding: 0;
+  }
+  .event__name {
+    padding: 0 30px;
+    font-size: 13px;
+    line-height: 13px;
+    overflow: hidden;
+  }
+  .event__decoration {
+    width: 126px;
+  }
+  .event__tournament-link {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-size: 10px;
+  }
+}

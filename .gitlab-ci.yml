@@ -1,0 +1,10 @@
+before_script:
+  - docker info
+
+build_image:
+  script:
+    - aws ecr get-login --no-include-email --region eu-central-1 | sh -
+    - docker build -f docker/nginx/Dockerfile.ci -t 852699307127.dkr.ecr.eu-central-1.amazonaws.com/app-mobile --build-arg USER_ID=33 --build-arg GROUP_ID=33 .
+    - docker push 852699307127.dkr.ecr.eu-central-1.amazonaws.com/app-mobile:latest
+    - ecs-cli configure --cluster app-mobile --default-launch-type EC2 --region eu-central-1
+    - ecs-cli compose --file docker-compose-app-prod.yml  --project-name app-mobile service up   --deployment-max-percent 200 --deployment-min-healthy-percent 50 --force-deployment

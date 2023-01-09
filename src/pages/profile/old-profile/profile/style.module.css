@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;
+    max-width: 1590px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+    .profile {
+        background: #171717;
+        min-height: calc(100vh - 60px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profile {
+        min-height: calc(100vh);
+    }
+}

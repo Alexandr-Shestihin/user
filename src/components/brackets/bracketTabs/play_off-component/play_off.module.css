@@ -1,0 +1,167 @@
+.play_offContainer {
+  /* width: 900px; */
+  display: flex;
+
+  height: 100%;
+  margin: 18px 0;
+  padding-bottom: 18px;
+  cursor: grab;
+  overflow-x: scroll;
+}
+.play_offFlexContainer {
+  display: flex;
+  margin-bottom: 20px;
+}
+.play_offRoundRow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  padding: 40px 10px 0 10px;
+  margin: 0 4px;
+}
+
+.play_offRoundRow2 {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex: 0 0 400px;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+.roundTitle {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  /* background: #333333; */
+  background: rgba(255, 255, 255, 0.05);
+  /* TODO color  */
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.teamsBlock {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+  width: 100%;
+}
+.teamsBlock:before,
+.teamBlock2:before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  right: 15px;
+  width: 300px;
+  height: 90%;
+  border-top: 5px solid lightgrey;
+  border-right: 5px solid lightgrey;
+  border-bottom: 5px solid lightgrey;
+  background: #262626;
+  /* TODO color  */
+  z-index: -1;
+}
+.teamBlock2:before {
+  top: -125px;
+  left: -540px;
+  height: 438px;
+  width: 510px;
+}
+
+/* @media screen and (max-width: 1446px){
+  .teamsBlock:before{
+     right: 0px;
+  }
+} */
+.teamsBlock_forOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 78px;
+  width: 100%;
+  height: 200px;
+}
+.teamBlock {
+  position: relative;
+  width: 80%;
+}
+.teamBlock2 {
+  margin: auto 0 auto 50px;
+  position: relative;
+  width: 80%;
+}
+.teamBlock:after,
+.teamBlock2:after {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: -80px;
+  height: 5px;
+  width: 80px;
+  background: lightgrey;
+  z-index: -2;
+}
+.play_offRoundRow2:after {
+  left: -180px;
+}
+/* @media screen and (max-width: 1446px){
+  .teamBlock:after{
+     left: -85px;
+  }
+} */
+.matchNumber {
+  position: absolute;
+  top: 35px;
+  left: -28px;
+  font-size: 18px;
+  color: rgb(195, 195, 224);
+}
+.teamBlock:last-child {
+  margin-top: 20px;
+}
+.teamBlock:last-child {
+  margin-top: 20px;
+}
+.teamBlock:last-child:after {
+  content: "";
+}
+.teamBlock_forOne {
+  padding-top: 40px;
+  width: 80%;
+}
+.player {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding-left: 10px;
+  background: #333333;
+  /* TODO color  */
+  /*background: rgb(43, 36, 74);*/
+}
+.player:last-child{
+  margin-top: 2px;
+}
+.playerTitle {
+  line-height: 40px;
+  font-size: 18px;
+}
+.playerPont {
+  width: 40px;
+  height: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  background: #6c6b6b;
+  text-align: center;
+}
+.playerPont_orange {
+  background: orange;
+}

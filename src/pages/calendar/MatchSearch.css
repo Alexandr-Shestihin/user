@@ -1,0 +1,267 @@
+:root {
+  --main-bg-color: #000000;
+  --main-text-color: rgb(154, 156, 166);
+  --main-title-text: #f2702c;
+  --main-text--active: #9a9ca6;
+  --main-non-active: #6c6d74;
+  --main-team-card: #181818;
+}
+.tournaments {
+  background: #262626;
+  font-family: "Nexa";
+}
+.tournaments__search {
+  border-bottom: none;
+}
+.match-search__filter:before {
+  display: none;
+}
+.tournaments__strike-decoration {
+  width: 145px;
+  height: 1px;
+  margin: 0 auto;
+  background: var(--main-text--active);
+}
+.match-search__search-tournaments-form {
+  padding: 26px 32%;
+  background: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.search-month__select {
+  position: relative;
+}
+.search-month__title {
+  margin-bottom: 12px;
+  margin-left: 30px;
+  font-family: "Nexa";
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.search-month__input {
+  display: none;
+}
+.search-month__input-label {
+  display: block;
+  width: 170px;
+  padding: 9px 21px 9px 15px;
+  margin: 20px 30px 20px 30px;
+  border: 1px #ffffff solid;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 16px;
+  background: transparent;
+  color: #ffffff;
+  font-family: "Nexa";
+  font-weight: 300;
+  cursor: pointer;
+}
+.search-month__select:after,
+.search-month__select:before {
+  position: absolute;
+  content: "";
+  top: 17px;
+  right: 46px;
+  width: 9px;
+  height: 3px;
+  background: #ffffff;
+  z-index: 5;
+  transform: rotate(45deg);
+}
+.search-month__select:before {
+  right: 41px;
+  transform: rotate(-45deg);
+}
+.search-month__select-list {
+  position: absolute;
+  top: 36px;
+  left: 30px;
+  background: #ffffff;
+  z-index: 78;
+}
+.search-month__option {
+  width: 170px;
+  padding: 7px 21px 7px 15px;
+  border-bottom: 1px #262626 solid;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: "Nexa Hevy";
+  background: #212121;
+}
+.search-tournaments-form__submit-wrapper {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+.search-tournaments-form__submit {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  color: white;
+  background: transparent;
+  border: none;
+  border-bottom: 1px #ffffff solid;
+  font-family: "Nexa";
+  font-size: 21px;
+  cursor: pointer;
+}
+.match-search__end-message {
+  display: flex;
+  justify-content: center;
+  margin: -23px 18% 0px 18%;
+  min-height: 180px;
+  font-size: 17px;
+  line-height: 17px;
+  text-align: center;
+  font-family: "Nexa";
+  color: #9a9ca6;
+  background: url(../../assets/images/Тень-1.svg) no-repeat;
+  background-size: 100% auto;
+}
+.end-message__text {
+  display: block;
+  padding: 40px 0;
+  text-align: center;
+}
+.tournament-list__shadow {
+  margin-top: -45px;
+  margin-bottom: -20px;
+  min-height: 150px;
+}
+@media (max-width: 1400px) {
+  .tournament-list__shadow {
+    margin-top: -36px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .match-search__search-tournaments-form {
+    padding: 26px 24%;
+  }
+  .search-month__select-list {
+    position: absolute;
+    top: 36px;
+    left: 30px;
+    background: #ffffff;
+    z-index: 78;
+  }
+  .search-month__option {
+    width: 170px;
+  }
+  .match-search__end-message {
+    min-height: 110px;
+    margin-top: -15px;
+  }
+  .end-message__text {
+    margin: 40px auto;
+  }
+  .tournament-list__shadow {
+    margin-top: -35px;
+  }
+}
+@media (max-width: 900px) {
+  .match-search__search-tournaments-form {
+    padding: 26px 15%;
+  }
+  .tournament-list__shadow {
+    margin-bottom: -20px;
+    min-height: 160px;
+  }
+  .tournament-list__shadow {
+    margin-top: -30px;
+    margin-bottom: -20px;
+    min-height: 80px;
+  }
+  .match-search__end-message {
+    margin-top: -12px;
+  }
+}
+@media (max-width: 870px) {
+  .match-search__end-message {
+    margin: -12px 5% 0 5%;
+  }
+  .end-message__text {
+    margin-top: 35px;
+  }
+  .tournament-list__shadow {
+    margin-top: -28px;
+  }
+}
+@media (max-width: 670px) {
+  .match-search__search-tournaments-form {
+    padding: 26px 5%;
+  }
+  .search-month__input-label {
+    display: block;
+    width: 140px;
+  }
+  .search-month__option {
+    width: 140px;
+  }
+  .end-message__text {
+    margin-top: 25px;
+  }
+  .tournament-list__shadow {
+    margin-top: -28px;
+  }
+}
+@media (max-width: 560px) {
+  .match-search__search-tournaments-form {
+    justify-content: space-around;
+  }
+  .end-message__text {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 470px) {
+  .search-month__title {
+    margin-left: 0px;
+  }
+  .match-search__search-tournaments-form {
+    padding: 26px 5%;
+  }
+  .search-month__input-label {
+    display: block;
+    width: 140px;
+    margin: 20px 0px 20px 0px;
+  }
+  .search-month__select:after,
+  .search-month__select:before {
+    right: 16px;
+  }
+  .search-month__select:before {
+    right: 11px;
+  }
+  .search-month__select-list {
+    left: 0px;
+  }
+  .match-search__end-message {
+    margin: -10px 5% 0 5%;
+    margin-bottom: 0;
+    min-height: 55px;
+    background-size: 100% auto;
+  }
+  .end-message__text {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .tournament-list__shadow {
+    min-height: 50px;
+    margin-top: -28px;
+  }
+}
+@media (max-width: 370px) {
+  .match-search__end-message {
+    margin: 0px 5%;
+    margin-top: -5px;
+  }
+  .tournament-list__shadow {
+    min-height: 50px;
+    margin-top: -28px;
+    margin-bottom: -20px;
+  }
+}

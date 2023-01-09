@@ -1,0 +1,504 @@
+{
+  "matches": [
+    {
+      "matchId": "01G3V1AZCXVM57R69XY924CSR9",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2RCYR3V5RE32ZZS7BG",
+        "name": "Azerbaijan",
+        "user": null,
+        "team": {
+          "id": "01G3NJZ1W75K2N5DMDGCBJB691",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZ1W75K2N5DMDGCBJB691/01G3S3VVQ73D27DBVPJZVSSEQC/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y2TV7BKVKK1Q49ZY3N8",
+        "name": "Hungary",
+        "user": null,
+        "team": {
+          "id": "01G3NJZN0HNNZC43RRXPSHGAXZ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZN0HNNZC43RRXPSHGAXZ/01G3SAD68734TPD041G67S8F23/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZG40HHQ4N7R9QY70H04",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2RCYR3V5RE32ZZS7BG",
+        "name": "Azerbaijan",
+        "user": null,
+        "team": {
+          "id": "01G3NJZ1W75K2N5DMDGCBJB691",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZ1W75K2N5DMDGCBJB691/01G3S3VVQ73D27DBVPJZVSSEQC/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y32VHSXCC5CHCE02CQW",
+        "name": "Turkey",
+        "user": null,
+        "team": {
+          "id": "01G3NK14P7XT0AMD4634H6DN28",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK14P7XT0AMD4634H6DN28/01G3SANSSXEQA8C8VAASVKSC64/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZKBDB8R51C7ENVEJ36W",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2RCYR3V5RE32ZZS7BG",
+        "name": "Azerbaijan",
+        "user": null,
+        "team": {
+          "id": "01G3NJZ1W75K2N5DMDGCBJB691",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZ1W75K2N5DMDGCBJB691/01G3S3VVQ73D27DBVPJZVSSEQC/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y359TT1QPDFH3DR3RWM",
+        "name": "Netherlands",
+        "user": null,
+        "team": {
+          "id": "01G3NK1TJ28PVEG4W3QG6HG9J5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1TJ28PVEG4W3QG6HG9J5/01G3SASVR0Q4S9T8573FMZF21S/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZPHEB74995NGWB8ACYM",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2RCYR3V5RE32ZZS7BG",
+        "name": "Azerbaijan",
+        "user": null,
+        "team": {
+          "id": "01G3NJZ1W75K2N5DMDGCBJB691",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZ1W75K2N5DMDGCBJB691/01G3S3VVQ73D27DBVPJZVSSEQC/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y36H6MW0QP0V11MV1WM",
+        "name": "Sweden",
+        "user": null,
+        "team": {
+          "id": "01G3NK1ZTPVJ0AW4BHS5VGNYR5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1ZTPVJ0AW4BHS5VGNYR5/01G3SAV53BFYD2RDQ1G0R3B6NH/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZRNKK60932XG0ESG3KJ",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2TV7BKVKK1Q49ZY3N8",
+        "name": "Hungary",
+        "user": null,
+        "team": {
+          "id": "01G3NJZN0HNNZC43RRXPSHGAXZ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZN0HNNZC43RRXPSHGAXZ/01G3SAD68734TPD041G67S8F23/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y32VHSXCC5CHCE02CQW",
+        "name": "Turkey",
+        "user": null,
+        "team": {
+          "id": "01G3NK14P7XT0AMD4634H6DN28",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK14P7XT0AMD4634H6DN28/01G3SANSSXEQA8C8VAASVKSC64/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZTTWX2YGVVX1BJRAT9N",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2TV7BKVKK1Q49ZY3N8",
+        "name": "Hungary",
+        "user": null,
+        "team": {
+          "id": "01G3NJZN0HNNZC43RRXPSHGAXZ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZN0HNNZC43RRXPSHGAXZ/01G3SAD68734TPD041G67S8F23/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y359TT1QPDFH3DR3RWM",
+        "name": "Netherlands",
+        "user": null,
+        "team": {
+          "id": "01G3NK1TJ28PVEG4W3QG6HG9J5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1TJ28PVEG4W3QG6HG9J5/01G3SASVR0Q4S9T8573FMZF21S/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZWY6YBYR3FRB7W33WDB",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2TV7BKVKK1Q49ZY3N8",
+        "name": "Hungary",
+        "user": null,
+        "team": {
+          "id": "01G3NJZN0HNNZC43RRXPSHGAXZ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZN0HNNZC43RRXPSHGAXZ/01G3SAD68734TPD041G67S8F23/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y36H6MW0QP0V11MV1WM",
+        "name": "Sweden",
+        "user": null,
+        "team": {
+          "id": "01G3NK1ZTPVJ0AW4BHS5VGNYR5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1ZTPVJ0AW4BHS5VGNYR5/01G3SAV53BFYD2RDQ1G0R3B6NH/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1AZZ262WW8BYYMPZZGYPP",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y32VHSXCC5CHCE02CQW",
+        "name": "Turkey",
+        "user": null,
+        "team": {
+          "id": "01G3NK14P7XT0AMD4634H6DN28",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK14P7XT0AMD4634H6DN28/01G3SANSSXEQA8C8VAASVKSC64/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y359TT1QPDFH3DR3RWM",
+        "name": "Netherlands",
+        "user": null,
+        "team": {
+          "id": "01G3NK1TJ28PVEG4W3QG6HG9J5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1TJ28PVEG4W3QG6HG9J5/01G3SASVR0Q4S9T8573FMZF21S/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0171NX4J7YX56VFYTRN",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y32VHSXCC5CHCE02CQW",
+        "name": "Turkey",
+        "user": null,
+        "team": {
+          "id": "01G3NK14P7XT0AMD4634H6DN28",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK14P7XT0AMD4634H6DN28/01G3SANSSXEQA8C8VAASVKSC64/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y36H6MW0QP0V11MV1WM",
+        "name": "Sweden",
+        "user": null,
+        "team": {
+          "id": "01G3NK1ZTPVJ0AW4BHS5VGNYR5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1ZTPVJ0AW4BHS5VGNYR5/01G3SAV53BFYD2RDQ1G0R3B6NH/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B03B6AV618B9T59A8JV6",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HC", "name": "Group 1" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y359TT1QPDFH3DR3RWM",
+        "name": "Netherlands",
+        "user": null,
+        "team": {
+          "id": "01G3NK1TJ28PVEG4W3QG6HG9J5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1TJ28PVEG4W3QG6HG9J5/01G3SASVR0Q4S9T8573FMZF21S/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y36H6MW0QP0V11MV1WM",
+        "name": "Sweden",
+        "user": null,
+        "team": {
+          "id": "01G3NK1ZTPVJ0AW4BHS5VGNYR5",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1ZTPVJ0AW4BHS5VGNYR5/01G3SAV53BFYD2RDQ1G0R3B6NH/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B08P1RD1EHENX9KEYT19",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2WGCR9R9117F8N9E25",
+        "name": "Luxembourg",
+        "user": null,
+        "team": {
+          "id": "01G3NJZXACDCSJ5EN8KGWGKCE4",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZXACDCSJ5EN8KGWGKCE4/01G3SAEZX5WR983AYAF4ZVTKMP/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y2XQMH2CQWGT67C4ST4",
+        "name": "Monaco",
+        "user": null,
+        "team": {
+          "id": "01G3NK0430K18WFW2JNHW3FXH0",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0430K18WFW2JNHW3FXH0/01G3SAGGCENZ8DVGADJV055BT0/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0BXX5KH4ZMAJ1JYT0QF",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2WGCR9R9117F8N9E25",
+        "name": "Luxembourg",
+        "user": null,
+        "team": {
+          "id": "01G3NJZXACDCSJ5EN8KGWGKCE4",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZXACDCSJ5EN8KGWGKCE4/01G3SAEZX5WR983AYAF4ZVTKMP/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y2ZZH6EFXMRV48MR2WN",
+        "name": "Slovakia",
+        "user": null,
+        "team": {
+          "id": "01G3NK0KYBGQHRA151K5WN5PXG",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0KYBGQHRA151K5WN5PXG/01G3SAHKGZRDD3913QYDGY4BQ5/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0F44Y3TS2D0V55PBNH2",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2WGCR9R9117F8N9E25",
+        "name": "Luxembourg",
+        "user": null,
+        "team": {
+          "id": "01G3NJZXACDCSJ5EN8KGWGKCE4",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZXACDCSJ5EN8KGWGKCE4/01G3SAEZX5WR983AYAF4ZVTKMP/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y300DT70P86V7NTV2PW",
+        "name": "Spain",
+        "user": null,
+        "team": {
+          "id": "01G3NK0V9NGZMZYGXFJ1DGEE1A",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0V9NGZMZYGXFJ1DGEE1A/01G3SAMNQMYEQTPWG1RHPN1MVJ/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0JBE8FX3RPAXV1EEB7F",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2WGCR9R9117F8N9E25",
+        "name": "Luxembourg",
+        "user": null,
+        "team": {
+          "id": "01G3NJZXACDCSJ5EN8KGWGKCE4",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NJZXACDCSJ5EN8KGWGKCE4/01G3SAEZX5WR983AYAF4ZVTKMP/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y33XXYXCQZ0RSV6VEY4",
+        "name": "Wales",
+        "user": null,
+        "team": {
+          "id": "01G3NK1J12EC7RGY16AZ2C0SJJ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1J12EC7RGY16AZ2C0SJJ/01G3SAQZR6C8NR5HCYYKMYMW96/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0MHWWMAWY7FWPDR1W26",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2XQMH2CQWGT67C4ST4",
+        "name": "Monaco",
+        "user": null,
+        "team": {
+          "id": "01G3NK0430K18WFW2JNHW3FXH0",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0430K18WFW2JNHW3FXH0/01G3SAGGCENZ8DVGADJV055BT0/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y2ZZH6EFXMRV48MR2WN",
+        "name": "Slovakia",
+        "user": null,
+        "team": {
+          "id": "01G3NK0KYBGQHRA151K5WN5PXG",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0KYBGQHRA151K5WN5PXG/01G3SAHKGZRDD3913QYDGY4BQ5/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0PNXZ8ZPBK4SWZVWK88",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2XQMH2CQWGT67C4ST4",
+        "name": "Monaco",
+        "user": null,
+        "team": {
+          "id": "01G3NK0430K18WFW2JNHW3FXH0",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0430K18WFW2JNHW3FXH0/01G3SAGGCENZ8DVGADJV055BT0/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y300DT70P86V7NTV2PW",
+        "name": "Spain",
+        "user": null,
+        "team": {
+          "id": "01G3NK0V9NGZMZYGXFJ1DGEE1A",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0V9NGZMZYGXFJ1DGEE1A/01G3SAMNQMYEQTPWG1RHPN1MVJ/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0RRM4S3C11T7QR5H2M4",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2XQMH2CQWGT67C4ST4",
+        "name": "Monaco",
+        "user": null,
+        "team": {
+          "id": "01G3NK0430K18WFW2JNHW3FXH0",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0430K18WFW2JNHW3FXH0/01G3SAGGCENZ8DVGADJV055BT0/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y33XXYXCQZ0RSV6VEY4",
+        "name": "Wales",
+        "user": null,
+        "team": {
+          "id": "01G3NK1J12EC7RGY16AZ2C0SJJ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1J12EC7RGY16AZ2C0SJJ/01G3SAQZR6C8NR5HCYYKMYMW96/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0TWE63B1C9DHBAWGABX",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2ZZH6EFXMRV48MR2WN",
+        "name": "Slovakia",
+        "user": null,
+        "team": {
+          "id": "01G3NK0KYBGQHRA151K5WN5PXG",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0KYBGQHRA151K5WN5PXG/01G3SAHKGZRDD3913QYDGY4BQ5/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y300DT70P86V7NTV2PW",
+        "name": "Spain",
+        "user": null,
+        "team": {
+          "id": "01G3NK0V9NGZMZYGXFJ1DGEE1A",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0V9NGZMZYGXFJ1DGEE1A/01G3SAMNQMYEQTPWG1RHPN1MVJ/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0X0DR3ZKFXS67JHZX09",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y2ZZH6EFXMRV48MR2WN",
+        "name": "Slovakia",
+        "user": null,
+        "team": {
+          "id": "01G3NK0KYBGQHRA151K5WN5PXG",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0KYBGQHRA151K5WN5PXG/01G3SAHKGZRDD3913QYDGY4BQ5/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y33XXYXCQZ0RSV6VEY4",
+        "name": "Wales",
+        "user": null,
+        "team": {
+          "id": "01G3NK1J12EC7RGY16AZ2C0SJJ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1J12EC7RGY16AZ2C0SJJ/01G3SAQZR6C8NR5HCYYKMYMW96/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    },
+    {
+      "matchId": "01G3V1B0Z35Z45X58CPD2MAD5E",
+      "startedAt": "25 May",
+      "round": { "id": "01G3SZWHPN0GKX1G978JBPW6HD", "name": "Group 2" },
+      "tournamentMember1": {
+        "id": "01G3NS8Y300DT70P86V7NTV2PW",
+        "name": "Spain",
+        "user": null,
+        "team": {
+          "id": "01G3NK0V9NGZMZYGXFJ1DGEE1A",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK0V9NGZMZYGXFJ1DGEE1A/01G3SAMNQMYEQTPWG1RHPN1MVJ/original"
+        }
+      },
+      "tournamentMember2": {
+        "id": "01G3NS8Y33XXYXCQZ0RSV6VEY4",
+        "name": "Wales",
+        "user": null,
+        "team": {
+          "id": "01G3NK1J12EC7RGY16AZ2C0SJJ",
+          "logo": "https://pwiszedma-com.s3.eu-central-1.amazonaws.com/teamLogo/01G3NK1J12EC7RGY16AZ2C0SJJ/01G3SAQZR6C8NR5HCYYKMYMW96/original"
+        }
+      },
+      "tournamentMemberScore1": 0,
+      "tournamentMemberScore2": 0
+    }
+  ]
+}

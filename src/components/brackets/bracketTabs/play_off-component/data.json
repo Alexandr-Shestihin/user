@@ -1,0 +1,316 @@
+{
+   "data": {
+      "type": "Double",
+      "tournamentMember": [
+         {
+            "id": "1",
+            "user": {
+               "id": 11,
+               "nickname": ""
+            }
+         },
+         {
+            "id": "2",
+            "user": {
+               "id": 12,
+               "nickname": "Sweden"
+            }
+         },
+         {
+            "id": "3",
+            "user": {
+               "id": 13,
+               "nickname": ""
+            }
+         },
+         {
+            "id": "4",
+            "user": {
+               "id": 14,
+               "nickname": "Spain"
+            }
+         },
+         {
+            "id": "5",
+            "user": {
+               "id": 15,
+               "nickname": ""
+            }
+         },
+         {
+            "id": "6",
+            "user": {
+               "id": 16,
+               "nickname": ""
+            }
+         },
+         {
+            "id": "7",
+            "user": {
+               "id": 17,
+               "nickname": ""
+            }
+         },
+         {
+            "id": "8",
+            "user": {
+               "id": "18",
+               "nickname": ""
+            }
+         },
+         {
+            "id": "9",
+            "user": {
+               "id": "19",
+               "nickname": ""
+            }
+         },
+         {
+            "id": "10",
+            "user": {
+               "id": "20",
+               "nickname": "Netherlands"
+            }
+         },
+         {
+            "id": "11",
+            "user": {
+               "id": "21",
+               "nickname": "Slovakia"
+            }
+         },
+         {
+            "id": "12",
+            "user": {
+               "id": "22",
+               "nickname": "22"
+            }
+         },
+         {
+            "id": "13",
+            "user": {
+               "id": "23",
+               "nickname": "Luxembourg"
+            }
+         },
+         {
+            "id": "14",
+            "user": {
+               "id": "24",
+               "nickname": "Turkiye"
+            }
+         },
+         {
+            "id": "15",
+            "user": {
+               "id": "25",
+               "nickname": "Hungary"
+            }
+         },
+         {
+            "id": "16",
+            "user": {
+               "id": "26",
+               "nickname": "Wales"
+            }
+         }
+      ],
+      "basket": [
+         {
+            "type": "winner",
+            "cols": [
+               {
+                  "name": "Round 1/4",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "2",
+                        "position": "1",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "13",
+                        "position": "2",
+                        "score": "0"
+                     },
+                     {
+                        "tournamentMemberId": "11",
+                        "position": "3",
+                        "score": "1"
+                     },
+                     {
+                        "tournamentMemberId": "15",
+                        "position": "4",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "4",
+                        "position": "5",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "14",
+                        "position": "6",
+                        "score": "0"
+                     },
+                     {
+                        "tournamentMemberId": "10",
+                        "position": "7",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "16",
+                        "position": "8",
+                        "score": "0"
+                     }
+                  ]
+               },
+               {
+                  "name": "Round 1/2",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "2",
+                        "position": "1",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "15",
+                        "position": "2",
+                        "score": "1"
+                     },
+                     {
+                        "tournamentMemberId": "4",
+                        "position": "3",
+                        "score": "0"
+                     },
+                     {
+                        "tournamentMemberId": "10",
+                        "position": "4",
+                        "score": "3"
+                     }
+                  ]
+               },
+               {
+                  "name": "Final",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "2",
+                        "position": "1",
+                        "score": "1"
+                     },
+                     {
+                        "tournamentMemberId": "10",
+                        "position": "2",
+                        "score": "3"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "type": "loser",
+            "cols": [
+               {
+                  "name": "Loser Round 1",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "13",
+                        "position": "1",
+                        "score": "2"
+                     },
+                     {
+                        "tournamentMemberId": "11",
+                        "position": "2",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "14",
+                        "position": "3",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "16",
+                        "position": "4",
+                        "score": "1"
+                     }
+                  ]
+               },
+               {
+                  "name": "Loser Round 2",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "4",
+                        "position": "1",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "11",
+                        "position": "2",
+                        "score": "1"
+                     },
+                     {
+                        "tournamentMemberId": "15",
+                        "position": "3",
+                        "score": "2"
+                     },
+                     {
+                        "tournamentMemberId": "14",
+                        "position": "4",
+                        "score": "3"
+                     }
+                  ]
+               },
+               {
+                  "name": "Loser Round 3",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "4",
+                        "position": "1",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "14",
+                        "position": "2",
+                        "score": "2"
+                     }
+                  ]
+               },
+               {
+                  "name": "Final",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "2",
+                        "position": "1",
+                        "score": "3"
+                     },
+                     {
+                        "tournamentMemberId": "4",
+                        "position": "2",
+                        "score": "2"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "type": "Final",
+            "cols": [
+               {
+                  "name": "GrandFinal",
+                  "rows": [
+                     {
+                        "tournamentMemberId": "10",
+                        "position": "1",
+                        "score": "4"
+                     },
+                     {
+                        "tournamentMemberId": "2",
+                        "position": "2",
+                        "score": "0"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

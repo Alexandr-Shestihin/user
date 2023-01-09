@@ -1,0 +1,444 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.match {
+  font-family: "Nexa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  /* TODO color  */
+  /* background: #181818; */
+  padding-top: 1px;
+}
+.match__scoreboard {
+  max-width: 900px;
+  padding: 28px 20px 40px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* TODO color */
+  background: #212121;
+  /* background: rgb(32, 25, 65); */
+  margin-bottom: 12px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  margin-top: 0;
+}
+.scoreboard__team-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.87);
+  margin-bottom: 8px;
+}
+.scoreboard__team {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scoreboard__team-title,
+.scoreboard__team-tag {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.87);
+}
+.team-score__live {
+  padding: 4px 8px;
+  max-width: 60px;
+  margin: 0 auto;
+  background: #f6a020;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 8px;
+}
+.team-score__best-of {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 14px;
+}
+.team-score__score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.87);
+}
+.match__discussion {
+  position: relative;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.discussion__select-match {
+  position: relative;
+  padding: 16px;
+  background: #212121;
+  /* TODO color  */
+  /* background: rgb(43, 36, 74, 0.5); */
+
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+.select-match__menu-wrapper {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 7;
+}
+.select-match__menu {
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background: #6c6d74;
+}
+.select-match__menu-item {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background: transparent;
+}
+.select-match__menu-item:hover {
+  background: white;
+  color: #212121;
+}
+.select-match__menu-item:hover .discussion__select-game {
+  color: #212121;
+}
+.discussion__select-tongler {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.56);
+  margin-bottom: 6px;
+}
+.discussion__select-game {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.discussion__select-game-image {
+  position: absolute;
+  top: 33px;
+  right: 26px;
+  cursor: pointer;
+}
+.discussion__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 12px 16px;
+  background: #212121;
+  /* TODO color */
+  /* background: rgb(43, 36, 74, 0.5); */
+
+  border-radius: 18px;
+  margin-right: 10px;
+}
+.discussion__inputs {
+  width: 120px;
+}
+.discussion__input-text-message {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+  width: 110px;
+  box-sizing: border-box;
+}
+.discussion__label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+.discussion__input-invisible {
+  display: none;
+}
+.match-result__pseudo-radio {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px white solid;
+  box-sizing: border-box;
+  margin-right: 13px;
+}
+.discussion__input-invisible:checked ~ .match-result__pseudo-radio:before {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+}
+.discussion__input-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.discussion__file-wrapper {
+  flex-grow: 77;
+}
+.discussion__file-input {
+  display: none;
+}
+.discussion__file-input-label {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.discussion__submit {
+  width: 100%;
+  padding: 12px 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #f6a020;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.discussion__teams {
+  width: 100%;
+}
+.discussion__team {
+  width: 49%;
+}
+.discussion__teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.discussion__team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 100px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 12px;
+}
+.discussion__team-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
+  background: #212121;
+  border-radius: 0px 26px 26px 0px;
+  margin-bottom: 8px;
+  /* TODO color + border */
+  /* background: rgba(255, 255, 255, 0.07); */
+  border-color: rgb(28, 28, 28);
+  border-width: 3px;
+}
+.team-wrapper__image {
+  margin-left: 12px;
+  border-radius: 50%;
+}
+.team-wrapper__rang {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 8px;
+}
+.team-wrapper__name {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.65);
+}
+.discussion__team-title--reverse {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 0;
+}
+.discussion__team-wrapper--reverse {
+  border-radius: 26px 0px 0px 26px;
+  justify-content: flex-start;
+}
+.team-wrapper__image--reverse {
+  margin-left: 0;
+  margin-right: 12px;
+}
+.team-wrapper__rang--reverse,
+.team-wrapper__name--reverse {
+  text-align: left;
+}
+.match__chat {
+  padding-top: 14px;
+  margin-top: 37px;
+  background: #212121;
+}
+.match__chat-open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px rgba(255, 255, 255, 0.12) solid;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.chat-info__title {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 5px;
+}
+.chat-info__online {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.65);
+  margin-bottom: 14px;
+}
+
+.match-chat__message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  margin: 28px 0;
+}
+.match-chat__image {
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.match-chat__text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.match-chat__message--reverse {
+  justify-content: flex-end;
+}
+.match-chat__image--reverse {
+  margin-right: 0;
+  margin-left: 12px;
+}
+.match-chat__text--reverse {
+  text-align: right;
+}
+.match-chat__write-message {
+  position: relative;
+  padding: 50px 20px 20px 20px;
+}
+.write-message__input {
+  width: 100%;
+  padding: 12px 18px 12px 48px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.write-message__input-clip {
+  position: absolute;
+  top: 62px;
+  left: 38px;
+}
+.write-message__input-smile {
+  position: absolute;
+  top: 60px;
+  right: 38px;
+}
+.discussion__submit:hover {
+  opacity: 0.8;
+}
+@media (max-width: 400px) {
+  .discussion__file-input-label {
+    padding: 20px 10px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .discussion__submit {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .discussion__team-title {
+    padding-right: 60px;
+  }
+  .discussion__team-title--reverse {
+    padding-left: 60px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 350px) {
+  .discussion__file-input-label {
+    padding: 20px 5px;
+  }
+}

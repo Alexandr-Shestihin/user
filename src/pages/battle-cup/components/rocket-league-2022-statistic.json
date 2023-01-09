@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "tag": "Netherlands",
+    "pts": 820,
+    "win": 7,
+    "lose": 1,
+    "infosLink": "$6000"
+  },
+  {
+    "id": 2,
+    "tag": "Sweden",
+    "pts": 810,
+    "win": 7,
+    "lose": 2,
+    "infosLink": "$4000"
+  },
+  {
+    "id": 3,
+    "tag": "Spain",
+    "pts": 720,
+    "win": 7,
+    "lose": 2,
+    "infosLink": "$3000"
+  },
+  {
+    "id": 4,
+    "tag": "Turkey",
+    "pts": 700,
+    "win": 3,
+    "lose": 4,
+    "infosLink": "$2000"
+  },
+  {
+    "id": 5,
+    "tag": "Slovakia",
+    "pts": 660,
+    "win": 4,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 6,
+    "tag": "Hungary",
+    "pts": 650,
+    "win": 3,
+    "lose": 3,
+    "infosLink": "-"
+  },
+  {
+    "id": 7,
+    "tag": "Wales",
+    "pts": 610,
+    "win": 2,
+    "lose": 4,
+    "infosLink": "-"
+  },
+  {
+    "id": 8,
+    "tag": "Luxembourg",
+    "pts": 600,
+    "win": 1,
+    "lose": 5,
+    "infosLink": "-"
+  },
+  {
+    "id": 9,
+    "tag": "Azerbaijan",
+    "pts": 510,
+    "win": 0,
+    "lose": 4,
+    "infosLink": "-"
+  },
+  {
+    "id": 10,
+    "tag": "Monaco",
+    "pts": 500,
+    "win": 0,
+    "lose": 4,
+    "infosLink": "-"
+  }
+]

@@ -1,0 +1,219 @@
+ul,
+li,
+a,
+p,
+div,
+h3,
+h4,
+img {
+  padding: 0;
+  margin: 0;
+}
+
+.open-list {
+  background: #262626;
+  /* background: #3f317c; */
+  /* TODO color  */
+}
+.open-list__team-card {
+  padding: 5px 5% 20px 5%;
+}
+.button-team-list {
+  border: none;
+  background-color: #262626;
+  /* background: #3f317c; */
+  /* TODO color  */
+  border-top: 1px #6a6b6e solid;
+  width: 82%;
+  text-align: left;
+  padding: 13px 18% 13px 0;
+  font-weight: 300;
+  margin-right: 13px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.drop-list-teams {
+  height: 100%;
+  width: 100%;
+  margin-left: 20%;
+  display: none;
+  visibility: hidden;
+}
+.drop-list-teams--open {
+  display: block;
+  visibility: visible;
+}
+.drop-list-teams--close {
+  display: none;
+  visibility: hidden;
+}
+.drop-list-teams__item-image {
+  margin-right: 5%;
+}
+.drop-list-teams__item,
+.drop-list-teams__item-no-team {
+  display: block;
+  padding: 10px;
+  margin-left: 20px;
+  font-family: "Nexa";
+  color: #ffffff;
+}
+
+.drop-list-teams__item-no-team {
+  padding: 20px;
+}
+
+.button-team-list__title {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.drop-list-teams__item-link {
+  color: var(--main-title-text);
+}
+
+.button-team-list__title-arrow {
+  filter: invert(92%) sepia(55%) saturate(1%) hue-rotate(152deg)
+    brightness(104%) contrast(77%);
+  position: absolute;
+  transform: rotate(-90deg);
+  left: 105%;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  transition: all 0.1s ease-in-out;
+}
+.button-team-list__title-arrow-rotate {
+  transform: rotate(0deg);
+}
+.team-card__top-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.team-card__owl-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+.team-card__owl {
+  position: relative;
+  margin-right: 8px;
+  margin-right: 20px;
+}
+.owl__sub-photo-img {
+  position: absolute;
+  bottom: 17px;
+  right: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #008cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.team-card__profile {
+  text-align: center;
+}
+.profile__team-name {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Nexa XBold";
+  font-size: 20px;
+  line-height: 22px;
+}
+.profile__team-email {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Nexa";
+  font-weight: 500;
+}
+.profile__disconnect {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 2px 0;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Nexa", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+}
+.profile__disconnect:hover {
+  opacity: 0.6;
+}
+.profile__disconnect:active {
+  color: orange;
+}
+.team-card__to-profile {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 1;
+  font-family: "Nexa";
+}
+.team-card__to-profile:hover {
+  opacity: 0.5;
+}
+.team-card__to-profile:active {
+  opacity: 1;
+  color: orange;
+}
+.open-list__sub-title {
+  padding: 13px 18%;
+  background: #343435;
+  /* background: rgb(43, 36, 74, 0.5); */
+  /* TODO color  */
+  color: white;
+  color: white;
+  font-family: "Nexa XBold";
+}
+.open-list__list-item {
+  display: block;
+  margin-left: 18%;
+  padding: 13px 18% 13px 0;
+  border-top: 1px #6a6b6e solid;
+  font-family: "Nexa";
+  color: #ffffff;
+}
+ul li:first-child {
+  border-top: none;
+}
+.open-list__list-item--border-bottom {
+  border-bottom: 1px #6a6b6e solid;
+}
+.open-list__pre-footer {
+  display: block;
+  padding: 25px;
+  text-align: center;
+  font-family: "Nexa";
+  color: #ffffff;
+}
+@media (max-width: 850px) {
+  .button-team-list {
+    width: 95%;
+    margin-left: 5%;
+    padding: 13px 5% 13px 0;
+  }
+  .open-list__team-card {
+    padding: 5px 5% 20px 5%;
+  }
+  .open-list__sub-title {
+    padding: 13px 5%;
+  }
+  .open-list__list-item {
+    margin-left: 5%;
+    padding: 13px 5% 13px 0;
+  }
+  .drop-list-teams__item {
+    padding: 10px;
+    margin-left: 20px;
+  }
+}

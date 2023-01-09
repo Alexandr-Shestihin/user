@@ -1,0 +1,194 @@
+.roster {
+   padding: 0 24px;
+   margin: 13px auto;
+   max-width: 700px;
+ }
+ .roster__title {
+   position: relative;
+   /* font-family: "Rubik"; */
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f6a020;
+   padding: 8px 0;
+   margin-bottom: 40px;
+ }
+ .roster__sub-title {
+   padding-top: 20px;
+ }
+ .roster__go-back-link {
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: block;
+   width: 44px;
+   height: 44px;
+   background: #2c2c2c;
+   border-radius: 14px;
+   border: 1px white solid;
+   cursor: pointer;
+ }
+ .roster__go-back-link:before,
+ .roster__go-back-link:after {
+   content: "";
+   position: absolute;
+   top: 21px;
+   left: 15px;
+   width: 15px;
+   height: 2px;
+   background: white;
+   transform: rotate(45deg);
+ }
+ .roster__go-back-link:after {
+   transform: rotate(-45deg);
+   top: 21px;
+   left: 15px;
+ }
+ .roster__player-list {
+   max-width: 700px;
+   padding-bottom: 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   overflow-x: scroll;
+ }
+ .roster__player-list::-webkit-scrollbar {
+   width: 12px;
+   background-color: #795014;
+   border-radius: 12px;
+ }
+ .roster__player-list::-webkit-scrollbar-thumb {
+   width: 12px;
+   background-color: #f6a020;
+   border-radius: 12px;
+ }
+ .player-list__player {
+   margin-right: 10px;
+   border: 1px transparent solid;
+   cursor: pointer;
+ }
+ .roster__manager-and-coach {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 25px;
+ }
+ .roster__players-list {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   overflow-x: scroll;
+   padding-bottom: 12px;
+ }
+ .roster__players-list::-webkit-scrollbar {
+   width: 12px;
+   background-color: #795014;
+   border-radius: 12px;
+ }
+ .roster__players-list::-webkit-scrollbar-thumb {
+   width: 12px;
+   background-color: #f6a020;
+   border-radius: 12px;
+ }
+ .add-players__image,
+ .roster__coach-image,
+ .roster__manager-image {
+    border: 1px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   background: #2c2c2c;
+   border-radius: 17px;
+   font-size: 40px;
+   line-height: 48px;
+   margin-top: 20px;
+   margin-bottom: 6px;
+ }
+ .add-players__name,
+ .roster__manager-name,
+ .roster__coach-name {
+   margin-top: 6px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+   color: #ffffff;
+   min-height: 18px;
+   text-align: center;
+ }
+ .profession {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+ }
+ .roster__coach,
+ .roster__manager {
+   width: 60px;
+ }
+ .roster__coach-profession,
+ .roster__manager-profession {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   color: rgba(255, 255, 255, 0.56);
+   text-align: center;
+ }
+ .roster__coach {
+   margin-right: 80px;
+ }
+ .roster__add-players .roster__decrease-players {
+   width: 60px;
+ }
+ .player-list__player-image {
+   margin-top: 20px;
+   margin-bottom: 3x;
+   border-radius: 17px;
+ }
+ .player-list__player-name {
+   min-height: 18px;
+   margin-top: 6px;
+   text-align: center;
+ }
+ .player-list__player {
+   margin-right: 10px;
+ }
+ .roster__coach,
+ .roster__manager {
+   cursor: grab;
+ }
+ .roster__players-list .roster__add-players, .roster__players-list .roster__decrease-players {
+   cursor: pointer;
+ }
+ .submit-button-wrapper {
+   width: 100%;
+ }
+ .submit-button {
+   display: block;
+   padding: 16px 40px;
+   width: 342px;
+   background: #f6a020;
+   border-radius: 18px;
+   margin: 40px auto;
+   /* font-family: "Rubik"; */
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #1e1e1e;
+   cursor: pointer;
+ }
+ 
+ @media (max-width: 450px) {
+   .submit-button {
+     width: 270px;
+     box-sizing: border-box;
+   }
+ }
+ 

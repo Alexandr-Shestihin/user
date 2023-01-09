@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# helpers
+.idea
+.DS_Store
+.env
+.env.production
+.cache
+*.log
+.cache
+docker-compose.override.yml
+!.gitkeep
+/.config
+/.npm
+/.bash_history

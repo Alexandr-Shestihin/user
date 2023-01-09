@@ -1,0 +1,152 @@
+.icon {
+  cursor: pointer;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: var(--white);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  transition: 0.25s linear;
+}
+
+.icon-home {
+  mask-image: url("../icons/home.svg");
+  -webkit-mask-image: url("../icons/home.svg");
+}
+
+.icon-search {
+  mask-image: url("../icons/search.svg");
+  -webkit-mask-image: url("../icons/search.svg");
+}
+.icon-calendar {
+  mask-image: url("../icons/calendar.svg");
+  -webkit-mask-image: url("../icons/calendar.svg");
+}
+
+.icon-star {
+  mask-image: url("../icons/Star.svg");
+  -webkit-mask-image: url("../icons/Star.svg");
+}
+.icon-more {
+  mask-image: url("../icons/more.svg");
+  -webkit-mask-image: url("../icons/more.svg");
+}
+
+.icon-rank {
+  mask-image: url("../icons/rank.svg");
+  -webkit-mask-image: url("../icons/rank.svg");
+}
+
+.icon-watch {
+  mask-image: url("../icons/watch.svg");
+  -webkit-mask-image: url("../icons/watch.svg");
+}
+
+.icon-arrow-left {
+  mask-image: url("../icons/arrow-left.svg");
+  -webkit-mask-image: url("../icons/arrow-left.svg");
+}
+
+.icon-notif {
+  mask-image: url("../icons/notif.svg");
+  -webkit-mask-image: url("../icons/notif.svg");
+}
+
+.icon-pencil {
+  mask-image: url("../icons/pencil.svg");
+  -webkit-mask-image: url("../icons/pencil.svg");
+}
+
+.icon-qr {
+  mask-image: url("../icons/qr.svg");
+  -webkit-mask-image: url("../icons/qr.svg");
+}
+
+.icon-camera {
+  mask-image: url("../icons/camera.svg");
+  -webkit-mask-image: url("../icons/camera.svg");
+}
+
+.icon-user-edit {
+  mask-image: url("../icons/user-edit.svg");
+  -webkit-mask-image: url("../icons/user-edit.svg");
+}
+
+.icon-follow {
+  mask-image: url("../icons/follow.svg");
+  -webkit-mask-image: url("../icons/follow.svg");
+}
+
+.icon-heart {
+  mask-image: url("../icons/heart.svg");
+  -webkit-mask-image: url("../icons/heart.svg");
+}
+
+.icon-plus {
+  mask-image: url("../icons/plus.svg");
+  -webkit-mask-image: url("../icons/plus.svg");
+}
+
+.icon-timer {
+  mask-image: url("../icons/timer.svg");
+  -webkit-mask-image: url("../icons/timer.svg");
+}
+
+.icon-clock {
+  mask-image: url("../svg/clock_19.svg");
+  -webkit-mask-image: url("../svg/clock_19.svg");
+}
+
+.icon-graphic {
+  mask-image: url("../icons/graphic.svg");
+  -webkit-mask-image: url("../icons/graphic.svg");
+}
+
+.icon-user-group {
+  mask-image: url("../icons/user-group.svg");
+  -webkit-mask-image: url("../icons/user-group.svg");
+}
+
+.icon-email-user {
+  mask-image: url("../icons/email-user.svg");
+  -webkit-mask-image: url("../icons/email-user.svg");
+}
+
+.icon-password {
+  mask-image: url("../icons/password.svg");
+  -webkit-mask-image: url("../icons/password.svg");
+}
+
+.icon-email {
+  mask-image: url("../icons/email.svg");
+  -webkit-mask-image: url("../icons/email.svg");
+}
+
+.icon-check-fill {
+  mask-image: url("../icons/check-fill.svg");
+  -webkit-mask-image: url("../icons/check-fill.svg");
+}
+
+.icon-facebook {
+  mask-image: url("../icons/facebook.svg");
+  -webkit-mask-image: url("../icons/facebook.svg");
+}
+
+.icon-google {
+  mask-image: url("../icons/google.svg");
+  -webkit-mask-image: url("../icons/google.svg");
+}
+
+.icon-globus {
+  mask-image: url("../icons/globus.svg");
+  -webkit-mask-image: url("../icons/globus.svg");
+}
+
+.icon-circle-arrow-down {
+  mask-image: url("../icons/circle-arrow-down.svg");
+  -webkit-mask-image: url("../icons/circle-arrow-down.svg");
+}

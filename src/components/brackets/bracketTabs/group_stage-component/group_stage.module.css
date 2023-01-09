@@ -1,0 +1,108 @@
+.flexContainer {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+}
+.flex{
+   width: 100%;
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1116px) {
+  .flexContainer {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flexContainer {
+    width: 90%;
+  }
+}
+.groupBlock {
+  margin: 45px 0 0 30px;
+  width: 460px;
+}
+@media screen and (max-width: 768px) {
+  .groupBlock {
+    width: 100%;
+    margin: 30px 0 0 0;
+  }
+}
+.tHeader {
+  height: 50px;
+}
+.title {
+  font-size: 30px;
+}
+.tHeaderContainer {
+  margin-top: 25px;
+  border-bottom: 1px solid lightgrey;
+  height: 38px;
+}
+.tBodyContainer {
+}
+.tHeaderRowContainer {
+  display: flex;
+  width: 100%;
+}
+.tBodyRowContainer {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+.itemHeader {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .itemHeader {
+    flex: auto;
+  }
+}
+.itemBody {
+  width: 100%;
+  text-align: center;
+  line-height: 89px;
+}
+@media screen and (max-width: 768px) {
+  .itemBody {
+    flex: auto;
+  }
+}
+.teamImage {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.number {
+  width: 60px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+}
+/* @media screen and (max-width: 768px){
+   .team{
+      display: none;
+   }
+} */
+.status {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 40%;
+  text-overflow: ellipsis;
+}
+.matches {
+  width: 40px;
+}
+.points {
+  width: 90px;
+}
